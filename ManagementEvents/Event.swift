@@ -11,13 +11,13 @@ import UIKit
 
 class Event
 {
-    var title: String           //biến lưu tên sự kiện (event)
-    var description: String     //biến lưu chi tiết sự kiện
+    var nameevent: String       //tên sự kiện (event)
+    var detail   : String       //chi tiết sự kiện
 
     //Một sự kiện chuẩn: gồm tên và chi tiết
-    init(titled: String, description: String)
+    init(nameevent: String, detail: String)
     {
-        self.title = titled
-        self.description = description
+        self.nameevent = nameevent
+        self.detail    = detail
     }
 }
