@@ -1,9 +1,9 @@
 //
 //  ManagementEventsTableViewController.swift
-//  ManagementEvents
+//  ManagementEvent
 //
-//  Created by bac on 5/3/17.
-//  Copyright © 2017 bac. All rights reserved.
+//  Created by Dau Khac Bac on 5/3/17.
+//  Copyright © 2017 Dau Khac Bac. All rights reserved.
 //
 
 import UIKit
