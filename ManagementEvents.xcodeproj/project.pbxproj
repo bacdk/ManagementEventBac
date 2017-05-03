@@ -12,13 +12,12 @@
 		402CC8D51EB0F13900716C1A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 402CC8D31EB0F13900716C1A /* Main.storyboard */; };
 		402CC8D81EB0F13900716C1A /* ManagementEvents.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 402CC8D61EB0F13900716C1A /* ManagementEvents.xcdatamodeld */; };
 		402CC8DA1EB0F13900716C1A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 402CC8D91EB0F13900716C1A /* Assets.xcassets */; };
-		402CC8DD1EB0F13900716C1A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 402CC8DB1EB0F13900716C1A /* LaunchScreen.storyboard */; };
 		402CC8E81EB0F13900716C1A /* ManagementEventsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 402CC8E71EB0F13900716C1A /* ManagementEventsTests.swift */; };
 		402CC8F31EB0F13A00716C1A /* ManagementEventsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 402CC8F21EB0F13A00716C1A /* ManagementEventsUITests.swift */; };
 		402CC9091EB0F92900716C1A /* Event.swift in Sources */ = {isa = PBXBuildFile; fileRef = 402CC9071EB0F92900716C1A /* Event.swift */; };
 		402CC90A1EB0F92900716C1A /* EventLine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 402CC9081EB0F92900716C1A /* EventLine.swift */; };
-		402CC90E1EB101FD00716C1A /* ManagementEventsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 402CC90D1EB101FD00716C1A /* ManagementEventsTableViewController.swift */; };
-		402CC9101EB1116C00716C1A /* EventDetailTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 402CC90F1EB1116C00716C1A /* EventDetailTableViewController.swift */; };
+		402CC90E1EB101FD00716C1A /* EventsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 402CC90D1EB101FD00716C1A /* EventsTableViewController.swift */; };
+		402CC9101EB1116C00716C1A /* DetailTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 402CC90F1EB1116C00716C1A /* DetailTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,7 +44,6 @@
 		402CC8D41EB0F13900716C1A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		402CC8D71EB0F13900716C1A /* ManagementEvents.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ManagementEvents.xcdatamodel; sourceTree = "<group>"; };
 		402CC8D91EB0F13900716C1A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		402CC8DC1EB0F13900716C1A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		402CC8DE1EB0F13900716C1A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		402CC8E31EB0F13900716C1A /* ManagementEventsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ManagementEventsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		402CC8E71EB0F13900716C1A /* ManagementEventsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ManagementEventsTests.swift; sourceTree = "<group>"; };
@@ -55,8 +53,8 @@
 		402CC8F41EB0F13A00716C1A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		402CC9071EB0F92900716C1A /* Event.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Event.swift; sourceTree = "<group>"; };
 		402CC9081EB0F92900716C1A /* EventLine.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EventLine.swift; sourceTree = "<group>"; };
-		402CC90D1EB101FD00716C1A /* ManagementEventsTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ManagementEventsTableViewController.swift; sourceTree = SOURCE_ROOT; };
-		402CC90F1EB1116C00716C1A /* EventDetailTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EventDetailTableViewController.swift; sourceTree = "<group>"; };
+		402CC90D1EB101FD00716C1A /* EventsTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EventsTableViewController.swift; sourceTree = SOURCE_ROOT; };
+		402CC90F1EB1116C00716C1A /* DetailTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -148,8 +146,8 @@
 		408C57561EB196CE00F8FCB1 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
-				402CC90D1EB101FD00716C1A /* ManagementEventsTableViewController.swift */,
-				402CC90F1EB1116C00716C1A /* EventDetailTableViewController.swift */,
+				402CC90D1EB101FD00716C1A /* EventsTableViewController.swift */,
+				402CC90F1EB1116C00716C1A /* DetailTableViewController.swift */,
 				402CC8D11EB0F13900716C1A /* ViewController.swift */,
 			);
 			name = Controller;
@@ -158,7 +156,6 @@
 		408C57571EB196EE00F8FCB1 /* View */ = {
 			isa = PBXGroup;
 			children = (
-				402CC8DB1EB0F13900716C1A /* LaunchScreen.storyboard */,
 				402CC8D31EB0F13900716C1A /* Main.storyboard */,
 			);
 			name = View;
@@ -271,7 +268,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				402CC8DD1EB0F13900716C1A /* LaunchScreen.storyboard in Resources */,
 				402CC8DA1EB0F13900716C1A /* Assets.xcassets in Resources */,
 				402CC8D51EB0F13900716C1A /* Main.storyboard in Resources */,
 			);
@@ -298,9 +294,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				402CC9101EB1116C00716C1A /* EventDetailTableViewController.swift in Sources */,
+				402CC9101EB1116C00716C1A /* DetailTableViewController.swift in Sources */,
 				402CC90A1EB0F92900716C1A /* EventLine.swift in Sources */,
-				402CC90E1EB101FD00716C1A /* ManagementEventsTableViewController.swift in Sources */,
+				402CC90E1EB101FD00716C1A /* EventsTableViewController.swift in Sources */,
 				402CC9091EB0F92900716C1A /* Event.swift in Sources */,
 				402CC8D21EB0F13900716C1A /* ViewController.swift in Sources */,
 				402CC8D81EB0F13900716C1A /* ManagementEvents.xcdatamodeld in Sources */,
@@ -346,14 +342,6 @@
 				402CC8D41EB0F13900716C1A /* Base */,
 			);
 			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		402CC8DB1EB0F13900716C1A /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				402CC8DC1EB0F13900716C1A /* Base */,
-			);
-			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */

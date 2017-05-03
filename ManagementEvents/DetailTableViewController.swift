@@ -8,7 +8,7 @@
 
 import UIKit
 
-class EventDetailTableViewController: UITableViewController {
+class DetailTableViewController: UITableViewController {
     
     // Khai báo 2 label và 1 textView để hiển thị thông tin chi tiết sự kiện
     @IBOutlet var lblDay: UILabel!

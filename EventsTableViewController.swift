@@ -8,7 +8,7 @@
 
 import UIKit
 
-class ManagementEventsTableViewController: UITableViewController {
+class EventsTableViewController: UITableViewController {
 
     // Data Source
     lazy var eventLines: [EventLine] = {
@@ -82,7 +82,7 @@ class ManagementEventsTableViewController: UITableViewController {
         if let identifier = segue.identifier {
             switch identifier {
                 case "EventDetail":
-                    let eventDetailVC = segue.destination as! EventDetailTableViewController
+                    let eventDetailVC = segue.destination as! DetailTableViewController
                     if let indexPath = self.tableView.indexPathForSelectedRow {
                         eventDetailVC.event = eventAtIndexPath(indexPath: indexPath as NSIndexPath)
                         eventDetailVC.dayDetail = dayAtIndexPath(indexPath: indexPath as NSIndexPath)
