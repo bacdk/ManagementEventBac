@@ -1,9 +1,9 @@
 //
 //  Event.swift
-//  ManagementEvents
+//  ManagementEvent
 //
-//  Created by Tran Van Tin on 4/26/17.
-//  Copyright © 2017 Tran Van Tin. All rights reserved.
+//  Created by Dau Khac Bac on 5/3/17.
+//  Copyright © 2017 Dau Khac Bac. All rights reserved.
 //
 
 import Foundation
